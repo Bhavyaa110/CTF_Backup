@@ -1,10 +1,12 @@
 body {
-    background-color: black;
+    background-image: url("http://getwallpapers.com/wallpaper/full/c/8/c/1126972-cool-black-background-designs-2560x1600-for-hd.jpg");
+    text-align: center;
   }
 p{
-    color: wheat;
+    color: #DFCDC3; 
     font-family: lemon milk;
     line-height: 20px;
+    text-align: left;
 }
 .level{
     font-size: 48px;
@@ -13,10 +15,19 @@ p{
     text-align: center;
 }
 .question{
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 0;
     text-align: center;
+    border: 3px solid black; 
+    display: inline-block;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fec195;
+    /* background-color: wheat; */
+    font-family: lemon milk;
+    width: 200px;
+    
 }
 .content{
     font-size: 15px;
@@ -24,15 +35,28 @@ p{
 }
 input{
     margin-bottom: 10px;
+    height: 25px;
+    width: 200px;
+    font-size: 18px;
+    padding-left: 6px;
+    
 }
 button{
-    display: block;
-    margin-bottom: 30px;
-    background-color:wheat;
-    color: #0f111d;
-    height: 28px;
-    width: 65px;
+    position: relative;
+    background: #fec195;
+    font-size: 15px;
+    text-align: center;
     font-weight: bold;
+    color: #181818;
+    border: 3px solid #fec195;
+    border-radius: 3px;
+    box-shadow: 0 0 0 #fec1958c;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 30px;
+    height: 35px;
+    width: 70px;
+    
   }
   button:hover{
     background-color: #0f111d;
@@ -40,11 +64,29 @@ button{
   }
   .btn{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
   }
 .all{
-    margin: 50px 100px 50px 100px;
-    background-color: rgb(68, 67, 67);
+    margin: 50px 50px 50px 50px;
+    background-color: black;
     border-radius: 20px;
-    padding: 10px;
+    padding: 20px;
+    opacity: 0.5;
+    
+}
+.story{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fec195;
+    font-family: lemon milk;
+    width: 200px;
+    display: inline-block;
+}
+.line{
+    font-weight: 300;
+    color: #DFCDC3;
+    /* color: #fec195; */
+    /* color: #8E8B82; */
 }
