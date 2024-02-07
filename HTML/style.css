@@ -4,7 +4,7 @@ body {
     display: inline-block;
   }
 p{
-    color: #DFCDC3; 
+    color: #f9dbcc;  
     font-family: lemon milk;
     line-height: 20px;
     text-align: left;
@@ -24,18 +24,19 @@ p{
     font-size: 27px;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #fec195;
-    /* background-color: wheat; */
+    /* color: #fec195; */
+    color: #fcb17c;
     font-family: lemon milk;
     width: 200px;
     
 }
 .content{
-    font-size: 15px;
     font-weight: 300;
+    color: #f9dbcc;
+    font-size: 17px;
 }
 input{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     height: 25px;
     width: 200px;
     font-size: 18px;
@@ -44,35 +45,36 @@ input{
 }
 button{
     position: relative;
-    background: #fec195;
+    background: #fcb17c;
     font-size: 15px;
     text-align: center;
     font-weight: bold;
     color: #181818;
-    border: 3px solid #fec195;
+    border: 3px solid #fcb17c;
     border-radius: 3px;
     box-shadow: 0 0 0 #fec1958c;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
     margin-bottom: 30px;
     height: 35px;
-    width: 70px;
+    width: 80px;
     
   }
   button:hover{
     background-color: #0f111d;
-    color: wheat;
+    color: #fcb17c;
   }
   .btn{
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 .all{
-    margin: 50px 50px 50px 50px;
-    background-color: black;
+    margin: 50px 50px 30px 50px;
+    background-color: rgb(15, 14, 14);
     border-radius: 20px;
     padding: 20px;
-    opacity: 0.5;
+    opacity: 0.4;
     
 }
 .story{
@@ -80,16 +82,15 @@ button{
     font-size: 27px;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #fec195;
+    color: #fcb17c;
     font-family: lemon milk;
     width: 200px;
     display: inline-block;
 }
 .line{
     font-weight: 300;
-    color: #DFCDC3;
-    /* color: #fec195; */
-    /* color: #8E8B82; */
+    color: #f9dbcc;
+    font-size: 17px;
 }
 .next{
     width:100px ;
@@ -97,9 +98,19 @@ button{
     background-color: #0f111d;
     color: wheat;
     border: 3px solid wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }
 .next:hover{
     color: #0f111d;
     background-color: wheat;
     border: 3px solid #0f111d;
+}
+.nextbutton{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    
 }
